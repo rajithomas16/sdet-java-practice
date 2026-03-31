@@ -39,7 +39,7 @@ public class FirstNonRepeatingCharacter {
 
 
 
-        System.out.println(firstNonRepeatingChar("india"));
+        System.out.println(firstNonRepeatingChar("India"));
 
     }
 
