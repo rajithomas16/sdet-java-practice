@@ -1,6 +1,10 @@
 package LeetCodeChallenges;
 
-import java.util.Arrays;
+
+
+
+
+//****************2-POINTER************************The Meeting Point (opposite directions)//
 
 public class PalindromeCheck {
     public static boolean isPalindrome(String s) {

@@ -10,6 +10,8 @@ dry run --> arr[i=0]=0,nothing happens; arr[i=1]=1,so now arr[pos=0]=1,pos=1;// 
 
 now ,fill arr[3]=0,arr[4]=0,increase pos++ arr[pos]={1,3,13,0,0};*/
 
+//****************2-POINTER************************ The Writer & Explorer (same direction)//
+
 public class MoveZeroesToEnd {
 
     public static int[] moveZeroes(int[] arr){
