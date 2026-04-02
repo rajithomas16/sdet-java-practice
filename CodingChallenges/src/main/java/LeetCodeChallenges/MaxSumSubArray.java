@@ -8,7 +8,7 @@ public class MaxSumSubArray {
 
    {
        int windowSum=0;
-       int maxSum=0;
+
 
 //i is the new guest and i-k is the leaving guest so add arr[i] and remove arr[i-k] from the windowSum
        for(int i=0;i<=k-1;i++)
@@ -16,7 +16,7 @@ public class MaxSumSubArray {
            windowSum+=arr[i];//get intial sum till k elements
        }
 
-
+      int maxSum=windowSum;//Start maxSum at the value of the first window to work also for negative numbers
        for(int i=k;i<=arr.length-1;i++)
        {
 
