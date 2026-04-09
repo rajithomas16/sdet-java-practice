@@ -23,7 +23,7 @@ public class ReverseVowels {
           else if (!vowels.contains(String.valueOf(chs[right])))
           {
 
-            right++;
+            right--;
           }
         else
         {
