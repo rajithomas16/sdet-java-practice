@@ -11,7 +11,7 @@ public class CanPlaceFlowers {
             {
                 boolean leftEmpty=(i==0||flowerbed[i-1]==0);//check if i is 0 (ie start) OR value at left side of current position is zero
 
-                boolean rightEmpty=(flowerbed.length-1==0||flowerbed[i-1]==0);//check if i is at the end OR value at left side of current position is zero
+                boolean rightEmpty=(i==flowerbed.length-1||flowerbed[i+1]==0);//check if i is at the end OR value at left side of current position is zero
 
                 if(leftEmpty&&rightEmpty)
                 {
